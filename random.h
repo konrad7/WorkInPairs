@@ -3,6 +3,6 @@
 
 int random() {
 	srand(time(0));
-	r = (rand() % 101);
+	int r = (rand() % 101);
 	return r;
 }
