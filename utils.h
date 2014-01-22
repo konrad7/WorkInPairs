@@ -12,10 +12,10 @@ int* random() {
 	return tab;
 }
 
-int sum(int* tab) {
+int sum(int* tab, int size) {
 	int sum = 0;
-	for (int i : tab) {
-		sum += i;
+	for (int i = 0; i < size; ++i) {
+		sum += tab[i];
 	}
 	return sum;
 }
@@ -36,9 +36,9 @@ int max(int tab[], int size){
 	return maximum;
 }
 
-void print(int* tab) {
-	for (int i : tab) {
-		std::count << i << " ";
+void print(int* tab, int size) {
+	for (int i = 0; i < size; ++i) {
+		std::cout << tab[i] << " ";
 	}
 	std::cout << std::endl;
 }

@@ -3,10 +3,10 @@
 
 int main(){
 	int* tab=random();
-	print(tab);
-	std::cout<<"Minimum: "<<min(tab)<<std::endl;
-	std::cout<<"Maximum: "<<max(tab)<<std::endl;
-	std::cout<<"Suma: "<<sum(tab)<<std::endl;
+	print(tab, 10);
+	std::cout<<"Minimum: "<<min(tab, 10)<<std::endl;
+	std::cout<<"Maximum: "<<max(tab, 10)<<std::endl;
+	std::cout<<"Suma: "<<sum(tab, 10)<<std::endl;
 	return 0;
 }
 
