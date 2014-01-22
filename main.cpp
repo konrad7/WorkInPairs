@@ -7,6 +7,7 @@ int main(){
 	std::cout<<"Minimum: "<<min(tab, 10)<<std::endl;
 	std::cout<<"Maximum: "<<max(tab, 10)<<std::endl;
 	std::cout<<"Suma: "<<sum(tab, 10)<<std::endl;
+	system("pause");
 	return 0;
 }
 
